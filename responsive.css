@@ -1,0 +1,89 @@
+@media (max-width:1024px){
+
+
+
+    /* ABOUT SECTION */
+
+
+
+}
+
+
+@media (max-width: 991px){
+    /* CUSTOM CLASSES*/
+    .text-content{
+        width:100%;
+    }
+
+    /* NAVBAR BRAND */
+    .navigation-wrap .navbar-brand img{
+        height:3.8125rem;
+    }
+     .navigation-wrap{
+         text-align: center;
+         background-color: var(--white-color);
+     }
+     .navigation-wrap .nav-link {
+       line-height:1.875rem;
+     }
+    /* BANNER DESIGN */
+    .top-banner{
+        padding:9.375rem 0 9.375rem;
+    }
+
+    /* CAROUSEL DESIGN */
+    .review-section .carousel-item .carousel-caption p{
+        padding:0;
+}
+}
+
+
+@media (max-width: 767px) {
+    /* CUSTOM CSS */
+    h1{
+        font-size:2.8rem;
+    }
+    h2{
+      font-size: 2rem;
+      line-height: 2.0625rem;  
+    }
+
+    /* TOP BANNER */
+    .top-banner{
+        padding:10.875rem 0 9.375rem;
+    }
+
+    /* STORY SECTION */
+    .story-section{
+        height:auto;
+        padding:3rem 0;
+    }
+
+    /* carousel design */
+    .review-section .carousel-item{
+        padding:11rem 3.125rem;
+    }
+
+    /* newsletter */
+    .newsletter{
+        width:75%;
+    }
+    .newsletter .main-btn{
+        width:100%;
+        margin-top:1rem;
+    }
+    /* footer */
+   .footer .footer-link,
+   .footer a i{
+       padding:0 0.7rem;
+   }
+
+}
+
+@media (max-width:330px) {
+
+    /* carousel design */
+    .review-section .carousel-item{
+        padding:13rem 3.125rem;
+    }
+}
